@@ -1,5 +1,5 @@
 edad = 19
-#Ten cuidado con el orden de lo que tienen if y elif por cómo se ejecutarán
+# Ten cuidado con el orden de lo que tienen if y elif por cómo se ejecutarán
 if edad > 65:
     print("Puedes verlo con 30% de descuento")
 elif edad > 54:
