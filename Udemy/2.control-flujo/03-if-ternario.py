@@ -7,4 +7,6 @@ mensaje = "Es mayor" if edad > 17 else "es menor"
 # else:
 #     mensaje = "Es menor"
 
+# Es mejor guardar mensajes en una variable que imprimirlos directamente
+
 print(mensaje)

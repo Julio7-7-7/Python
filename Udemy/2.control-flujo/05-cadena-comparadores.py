@@ -1,0 +1,6 @@
+edad = 25
+
+# if edad >= 15 and <= 65
+
+if 15 <= edad <= 65:
+    print("Puede entrar a la piscina")
