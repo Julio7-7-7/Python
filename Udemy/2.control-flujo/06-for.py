@@ -9,3 +9,7 @@ for numero in range(5):
         break
 else:
     print("No encontré el número")
+
+
+for char in "Ultimete Python":
+    print(char)
