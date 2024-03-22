@@ -12,3 +12,7 @@ print(animal.find("re"))
 print(animal.replace("vA", "Va"))
 print("redonda" in animal)
 print("redonda" not in animal)
+# Encontrar las ocurrencias dentro de una cadena
+print(animal.upper().count('A'))
+# Encontrar el último caracter de una cadena
+print(animal[-1])

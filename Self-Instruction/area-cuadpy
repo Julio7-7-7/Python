@@ -1,0 +1,161 @@
+import math
+
+# Calculando el area de un cuadrado
+
+# radio = int(input("Ingrese el area del cuadrado"))
+# area = math.pi * math.pow(radio, 2)
+
+# print("El area del cuadrado es = ", area)
+
+
+'''
+# Creando una lista de varios elementos
+lista1 = [1, "dos.", True]
+print("La lista 1 es:", lista1)
+
+# Calculando el promedio de una lista de números
+numeros = [1, 6, 6, 4, 2, 4, 5]
+promedio = sum(numeros) / len(numeros)
+print("El promedio es: ", promedio)
+
+# Invertir una cadena
+cadena = "cadena"
+print(cadena[::-1])
+
+# Ordenar los numeros de una lista
+lista = [1, 4, 6, 7, 3, 2, 0]
+print(lista.sort())
+
+# Dividir una cadena en una lista de subcadenas
+cadena = "Hola mundo LoL"
+print(cadena.split())
+
+# Verificar palindromo
+palindromo = "radar"
+es_pa = palindromo == palindromo[::-1]
+print("¿Es palindromo?", es_pa)
+
+# Eliminar un elemento de la lista
+lista = [1, 2, 3, 4, 5, 6, 7]
+lista.remove(2)
+print(lista)
+
+# Generar numeros
+lista = list(range(1, 10))
+print(lista)
+
+# Hacer una inserción y una intersección de conjuntos
+lista = {1, 2, 3}
+lista2 = {3, 4, 5}
+
+print(lista & lista2)
+print(lista | lista2)
+
+# Combinar dos listas en parejas
+lista = [1, 2, 3, 4]
+lista2 = ["a", "b", "c", "d"]
+
+print(list(zip(lista, lista2)))
+
+# Eliminar duplicados de lista
+lista = [1, 1, 2, 3, 4, 4, 5, 5, 5, 6]
+print(list(set(lista)))
+
+# Par impar cero
+n = int(input("Ingrese un número: "))
+if n < 0:
+    print("El número es negativo")
+elif n == 0:
+    print("El número es cero")
+else:
+    print("El número es positivo")
+
+# Verificar año bisiesto
+a = int(input("Ingrese el año: "))
+if (a % 4 == 0 and a % 100 != 0) or (a % 100 == 0):
+    print("El año es bisiesto")
+else:
+    print("No es bisiesto")
+
+# Verificar si una cadena es mayor a 10 char
+cadena = input("Ingrese una palabra")
+if len(cadena) > 10:
+    print("Es mayor a 10")
+else:
+    print("No lo es")
+
+# máximo de 3 números
+num1 = int(input("Ingrese el primero"))
+num2 = int(input("Ingrese el segundo"))
+num3 = int(input("Ingrese el tercero"))
+
+mayor = max(num1, num2, num3)
+print("El mayor es ", mayor)
+
+# Suma los numeros hasta el n que pida el usuario
+
+n = int(input("Ingrese el n: "))
+suma = 0
+i = 1
+while i <= n:
+    suma += i
+    i += 1
+print("La suma de n es ", suma)
+
+# Hallar el factorial
+n = int(input("Ingrese el n: "))
+fact = 1
+i = 1
+while i <= n:
+    fact *= i
+    i += 1
+print("El fact de n es ", fact)
+
+# Imprimir la tabla de multiplicar de un número
+numero = int(input("Ingrese el número deseado: "))
+i = 1
+while i <= 10:
+    multi = numero * i
+    print(f"{numero}  x {i}  =  {multi}")
+    i += 1
+
+
+# Del 1 al 100 cambiando 3 por zizz
+numero = 0
+for i in range(1, 101):
+    if (i % 3 == 0):
+        print("zizz")
+    elif (i % 5 == 0):
+        print("waos")
+    else:
+        print(i)
+
+
+# Sumar los números con for
+numero = 0
+for i in range(1, 5):
+    numero += i
+
+print(numero)
+
+# Imprimir los numeros de una lista
+lista1 = [1, 2, 3, 4, 5]
+for i in lista1:
+    print(i)
+
+ # Multiplicar todos los elementos de una lista *2
+lista1 = [1, 2, 3, 4, 5]
+for i in lista1:
+    print(f"El elemento {i} * 2 es = {i*2}")
+   
+# Pedir un número y mostrar la tabla de multiplicar del mismo
+numero = int(input("Ingrese el número"))
+for i in range(1, 11):
+    print(f"{numero} * {i} = {numero*i}")
+
+resultado = 0
+for i in range(0, 11, 2):
+    resultado = resultado + i
+print("La suma de los pares es ", resultado)
+
+                                                    '''

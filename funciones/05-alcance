@@ -1,0 +1,13 @@
+def saludar():
+    saludo = "Hola mundo"
+    print(saludo)
+
+
+def saludaLol():
+    saludo = "Hola lol"
+    print(saludo)
+
+
+saludar()
+saludaLol()
+saludar()
